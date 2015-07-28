@@ -1,4 +1,51 @@
-.Component:active,
-.Component.pseudo-active {
-  color: red;
+/**
+ * Comment.
+ */
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a.pseudo-hover {
+  text-decoration: underline;
+}
+
+a:active,
+a.pseudo-active {
+  font-weight: bold;
+}
+
+a.lol:active,
+a.lol.pseudo-active {
+  font-weight: normal;
+}
+
+a:nth-child(5),
+a.pseudo-nth-child--5-- {
+  border: 1px solid papayawhip;
+}
+
+a:hover:focus,
+a.pseudo-hover.pseudo-focus {
+  font-weight: bold;
+}
+
+a::before {
+  color: white;
+}
+
+a:hover::before,
+a.pseudo-hover::before {
+  border-top-color: blue;
+}
+
+a:active:focus:hover::before,
+a.pseudo-active.pseudo-focus.pseudo-hover::before {
+  border-bottom-color: blue;
+}
+
+a:active:focus + div:hover,
+a.pseudo-active.pseudo-focus + div.pseudo-hover {
+  color: magenta;
 }

@@ -29,6 +29,7 @@ function pseudoClasses(options){
 
         var selectorParts = selector.split(' ');
         var pseudoedSelectorParts = [];
+        var combinations;
         selectorParts.forEach(function(selectorPart, index) {
           var pseudos = selectorPart.match(/::?([^:]+)/g);
           if (!pseudos) {
@@ -98,7 +99,7 @@ function pseudoClasses(options){
 
     });
   };
-};
+}
 
 
 // a.length === b.length

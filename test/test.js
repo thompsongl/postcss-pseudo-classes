@@ -20,19 +20,8 @@ describe('postcss-pseudo-classes', function() {
   it('should add all combinations (slower) of pseudoclass selectors if allCombinations is set to true', function() {
     var output = postcss()
               .use(pseudoclasses({ allCombinations: true }))
-              .process(fixture('all-combinations.css')).css;
+              .process(fixture('source.css')).css;
     var expected = fixture('all-combinations.expected.css');
-
-    assert.equal(output, expected);
-  });
-
-  it('should ignore pseudoclass selectors in the blacklist', function() {
-    var output = postcss()
-              .use(pseudoclasses({
-                blacklist: [':not']
-              }))
-              .process(fixture('blacklist.css')).css;
-    var expected = fixture('blacklist.expected.css');
 
     assert.equal(output, expected);
   });
