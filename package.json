@@ -1,0 +1,30 @@
+{
+  "name": "postcss-pseudo-classes",
+  "version": "0.1.0",
+  "description": "A PostCSS plugin to add companion classes to your pseudo styles for testing/convenience",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thompsongl/postcss-pseudo-classes.git"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "pseudoselector",
+    "css",
+    "preprocess"
+  ],
+  "author": "Greg Thompson (https://github.com/thompsongl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thompsongl/postcss-pseudo-classes/issues"
+  },
+  "homepage": "https://github.com/thompsongl/postcss-pseudo-classes#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "postcss": "^4.1.16"
+  }
+}

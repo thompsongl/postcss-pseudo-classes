@@ -1,0 +1,4 @@
+.Component:active,
+.Component.pseudo-active {
+  color: red;
+}
