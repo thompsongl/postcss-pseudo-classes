@@ -43,4 +43,4 @@ MIT
 
 ## Acknowledgements
 
-* Based on [rework-pseudo-classes](https://github.com/SlexAxton/rework-pseudo-classes)
+* Ported from [rework-pseudo-classes](https://github.com/SlexAxton/rework-pseudo-classes)
