@@ -10,7 +10,7 @@ __Example input__
 
 __Example output__
 ```css
-.Component:active { /* ... */ }
+.Component:active,
 .Component.pseudo-active { /* ... */ }
 ```
 
